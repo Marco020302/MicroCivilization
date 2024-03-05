@@ -1,22 +1,203 @@
 [
 	{
-		"Ruota1": {
-			"pos":"ruota.png",
-			"big":"aereo.jpg"
+		"Repubblica": {
+			"pos":"Repubblicapos.png",
+			"big":"Repubblica.png"
 		},
-		"Ruota2": {
-			"pos":"ruota.png",
-			"big":"ruota.png"
+		"Fisica nucleare": {
+			"pos":"Fisica nuclearepos.png",
+			"big":"Fisica nucleare.png"
 		}
 	},
 	{
-		"Aereo1": {
-			"pos":"aereo.jpg",
-			"big":"aereo.jpg"
+		"Aereo": {
+			"pos":"Aereopos.png",
+			"big":"Aereo.png"
 		},
-		"Aereo2": {
-			"pos":"aereo.jpg",
-			"big":"ruota.png"
+		"Psicologia": {
+			"pos":"Psicologiapos.png",
+			"big":"Psicologia.png"
+		}
+	},
+        {
+		"Invenzione della scrittura": {
+			"pos":"Scritturapos.png",
+			"big":"Scrittura.png"
+		},
+		"Teorema di Pitagora": {
+			"pos":"Pitagorapos.png",
+			"big":"Pitagora.png"
+		}
+	},
+        {
+		"Banche": {
+			"pos":"Banchepos.png",
+			"big":"Banche.png"
+		},
+		"Libertà di pensiero": {
+			"pos":"Pensieropos.png",
+			"big":"Pensiero2.png"
+		}
+	},
+        {
+		"Anestesia": {
+			"pos":"Anestesiapos.png",
+			"big":"Repubblica.png"
+		},
+		"Comunicazione telefonica": {
+			"pos":"Telefonopos.png",
+			"big":"Telefono.png"
+		}
+	},
+	{
+		"Internet": {
+			"pos":"Internetpos.png",
+			"big":"Internet.png"
+		},
+		"Obbligo di istruzione": {
+			"pos":"Istruzionepos.png",
+			"big":"Istruzione.png"
+		}
+	},
+        {
+		"Scuola Pubblica": {
+			"pos":"Scuolapos.png",
+			"big":"Scuola.png"
+		},
+		"Salario minimo": {
+			"pos":"Salariopos.png",
+			"big":"Salario.png"
+		}
+	},
+        {
+	
+		"Abolizione cannibalismo": {
+			"pos":"Cannibalipos.png",
+			"big":"Cannibali.png"
+		},
+		"Bonifica delle paludi": {
+			"pos":"Paludipos.png",
+			"big":"Paludi.png"
+		}
+	},
+        {
+		"Libertà di stampa": {
+			"pos":"Stampapos.png",
+			"big":"Stampa.png"
+		},
+		"Abolizione del lavoro minorile": {
+			"pos":"Minorilepos.png",
+			"big":"Minorile.png"
+		}
+	},
+	{
+		"Utensili di ferro": {
+			"pos":"Utensilipos.png",
+			"big":"Utensili.png"
+		},
+		"Pensiero ecologico": {
+			"pos":"Ecologiapos.png",
+			"big":"Ecologia.png"
+		}
+	},
+        {
+		"Democrazia egualitaria": {
+			"pos":"Democraziapos.png",
+			"big":"Democrazia.png"
+		},
+		"Metodo scientifico": {
+			"pos":"Metodopos.png",
+			"big":"Metodo.png"
+		}
+	},
+	{
+		"Abolizione della schiavitù": {
+			"pos":"Schiavipos.png",
+			"big":"Schiavi.png"
+		},
+		"Teoria della relatività": {
+			"pos":"Relativitàpos.png",
+			"big":"Relatività.png"
+		}
+	},
+        {
+		"Illuminazione pubblica": {
+			"pos":"Illuminazionepos.png",
+			"big":"Illuminazione.png"
+		},
+		"Termodinamica": {
+			"pos":"Termodinamicapos.png",
+			"big":"Termodinamica.png"
+		}
+	},
+	{
+		"Materie plastiche": {
+			"pos":"Plasticapos.png",
+			"big":"Plastica.png"
+		},
+		"Divisione dei poteri": {
+			"pos":"Poteripos.png",
+			"big":"Poteri.png"
+		}
+	},
+        {
+		"Diritti inalienabili dell'uomo": {
+			"pos":"Dirittipos.png",
+			"big":"Diritti.png"
+		},
+		"Sanità pubblica": {
+			"pos":"Sanitàpos.png",
+			"big":"Sanità.png"
+		}
+	},
+	{
+		"Tavola periodica": {
+			"pos":"Tavolapos.png",
+			"big":"Periodica.png"
+		},
+		"Trasporto pubblico": {
+			"pos":"Trasportopos.png",
+			"big":"Trasporto.png"
+		}
+	},
+{
+		"Bagni pubblici": {
+			"pos":"Bagnipos.png",
+			"big":"Bagni.png"
+		},
+		"Cemento": {
+			"pos":"Cementopos.png",
+			"big":"Cemento.png"
+		}
+	},
+	{
+		"Elettricità": {
+			"pos":"Elettricitàpos.png",
+			"big":"Elettricità.png"
+		},
+		"Diritto di sciopero": {
+			"pos":"Scioperopos.png",
+			"big":"Sciopero.png"
+		}
+	},
+{
+		"Scoperta del fuoco": {
+			"pos":"Fuocopos.png",
+			"big":"Fuoco.png"
+		},
+		"Principio causa effetto": {
+			"pos":"Causapos.png",
+			"big":"Causa.png"
+		}
+	},
+	{
+		"Referendum popolari": {
+			"pos":"Referndumpos.png",
+			"big":"Referendum.png"
+		},
+		"Mense per i poveri": {
+			"pos":"Poveripos.png",
+			"big":"Poveri.png"
 		}
 	}
 ]
