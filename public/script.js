@@ -1,9 +1,9 @@
 let rightImg = document.getElementById("rImg");
-let rightTitle = document.getElementById("rTitle");
+// let rightTitle = document.getElementById("rTitle");
 let rightBtn = document.getElementById("rBtn");
 
 let leftImg = document.getElementById("lImg");
-let leftTitle = document.getElementById("lTitle");
+// let leftTitle = document.getElementById("lTitle");
 let leftBtn = document.getElementById("lBtn");
 
 let imagesWrap = document.getElementById("images");
@@ -16,14 +16,14 @@ function showChoice() {
 	let choice = choices[i];
 	let names = Object.keys(choice);
 	
-	leftTitle.innerText = names[0];
+	// leftTitle.innerText = names[0];
 	leftImg.alt = names[0];
 	leftImg.src = choice[names[0]].big;
 	leftBtn.onclick = () => {
 		choose(names[0]);
 	}
 	
-	rightTitle.innerText = names[1];
+	// rightTitle.innerText = names[1];
 	rightImg.alt = names[1];
 	rightImg.src = choice[names[1]].big;
 	rightBtn.onclick = () => {

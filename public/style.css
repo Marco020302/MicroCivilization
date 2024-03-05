@@ -1,7 +1,7 @@
 :root {
 	--fg1: #393D3F;
 	--fg2: #248232;
-	--bg1: #E8D7FF;
+	--bg1: #e8e7e2;
 	--bg2: #F6E27F;
 	--hl: #DE1A1A;
 	--font: 'Courier New', Courier, monospace;
@@ -295,12 +295,12 @@ h1 {
 }
 
 #choice div:hover img {
-	transform: scale(1.05) translateY(-5%);
+	transform: scale(1.05);
 	transition: 200ms;
 }
 
 #choice div img {
-	max-height: calc(100% - 1.5rem - 1.5rem);
+	max-height: calc(100% - 1.5rem);
 	max-width: calc(100% - 1.5rem);
 	right: 1;
 	position: absolute;
@@ -309,7 +309,7 @@ h1 {
 	left: 0px;
 	right: 0px;
 	margin: auto;
-	transform: translateY(-0.75rem);
+	/* transform: translateY(-0.75rem); */
 }
 
 #images {
