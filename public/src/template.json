@@ -1,0 +1,22 @@
+[
+	{
+		"Bici": {
+			"pos":"BiciInPosizione.png",
+			"big":"SoloBiciGrande.png"
+		},
+		"Macchina": {
+			"pos":"MacchinaPosizionata.png",
+			"big":"SoloMacchinaGrande.png"
+		}
+	},
+	{
+		"Democrazia": {
+			"pos":"RomaPos.png",
+			"big":"SoloRoma.png"
+		},
+		"Monarchia": {
+			"pos":"SpagnaPos.png",
+			"big":"Corona.png"
+		}
+	}
+]

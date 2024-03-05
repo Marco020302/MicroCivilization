@@ -1,0 +1,344 @@
+:root {
+	--fg1: #393D3F;
+	--fg2: #248232;
+	--bg1: #E8D7FF;
+	--bg2: #F6E27F;
+	--hl: #DE1A1A;
+	--font: 'Courier New', Courier, monospace;
+	font-size:2vh;
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: var(--bg1);
+	font-size: medium;
+	font-family: var(--font);
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: min-content;
+	grid-auto-rows: max-content;
+	grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+	gap: 0.5rem;
+	position: absolute;
+	margin: 0.5rem;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 3rem;
+}
+
+.program, .program:link, .program:visited, .program:active {
+	padding: 2vmin;
+	padding-top: 0vmin;
+	text-decoration: none;
+	overflow-x: hidden;
+}
+
+.program:hover .title{
+	transform: scale(1.1);
+	transition: 200ms;
+	color:var(--hl);
+}
+
+.sep {
+	height: 0px;
+	border-top: solid var(--fg1) 0.1rem;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+
+.program:hover .description {
+	color: var(--fg1);
+}
+
+h1, .title {
+	text-align: center;
+	font-weight: bold;
+	transition: 200ms;
+	min-width: fit-content;
+	width: 100%;
+	height: fit-content;
+	font-size: 2.5rem;
+}
+
+h1 {
+	color: var(--fg2);
+	font-family: var(--font);
+	height: 3rem;
+	text-wrap: nowrap;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.box {
+	color: var(--fg1);
+	font-family: var(--font);
+	font-size: 1rem;
+	border: solid 0.25rem var(--hl);
+	background-color: var(--bg2);
+	border-radius: 1rem;
+	overflow-x: auto;
+	overflow-y: auto;
+	display: block;
+	box-sizing: border-box;
+}
+
+/* width */
+.box::-webkit-scrollbar,
+.array::-webkit-scrollbar {
+	width: 0.4rem;
+	height: 0.4rem;
+}
+
+/* Track */
+.box::-webkit-scrollbar-track,
+.array::-webkit-scrollbar-track {
+	background: var(--bg1);
+	margin-left: 0.9rem;
+	margin-right: 0.9rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-radius: 0.2rem;
+}
+
+/* Handle */
+.box::-webkit-scrollbar-thumb,
+.array::-webkit-scrollbar-thumb {
+	border-radius: 0.2rem;
+	background: var(--fg1);
+	transition: 200ms;
+}
+
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:hover,
+.array::-webkit-scrollbar-thumb:hover {
+	background: var(--fg2);
+	transition: 200ms;
+}
+
+.box::-webkit-scrollbar-corner,
+.array::-webkit-scrollbar-corner {
+	background: #0000;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		-moz-user-select: none; /* Old versions of Firefox */
+			-ms-user-select: none; /* Internet Explorer/Edge */
+				user-select: none; /* Non-prefixed version, currently
+									supported by Chrome, Edge, Opera and Firefox */
+}
+
+.code {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: min-content;
+	padding-top: 0.25rem;
+	padding-bottom: auto;
+	padding-right: 1rem;
+}
+
+.line {
+	font-weight: bold;
+	display: inline-block;
+	text-wrap: nowrap;
+	width: fit-content;
+	min-width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 1em;
+}
+
+.line.debug {
+	background-color: var(--bg1);
+}
+
+.n {
+	display: inline-block;
+	color: var(--fg2);
+	border-right: solid 1px var(--fg2);
+	width: 3rem;
+	min-width: fit-content;
+	text-align: end;
+	padding-right: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.split {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(50vmin, 1fr));
+	grid-template-rows: repeat(auto-fit, 1fr);
+	grid-auto-rows: 1fr;
+	position: absolute;
+	top: 3rem;
+	bottom: 0px;
+	height: auto;
+	padding: 1rem;
+	gap: 1rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.textarea {
+	background-color: var(--bg1);
+	resize: none;
+	border: solid 0.1rem var(--hl);
+	border-radius: 0.5rem;
+	box-sizing: border-box;
+	width: calc(100% - 3rem);
+	height: calc(100% - 3rem - 3rem - 1.5rem);
+	margin: 1.5rem;
+	padding: 1em;
+	color: var(--fg1);
+}
+
+.btn {
+	height: 3rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: var(--bg2);
+	border: none;
+	width: calc(100% - 3rem);
+	margin-left: 1.5rem;
+	font-family: var(--font);
+	background-color: var(--hl);
+	border-radius: 0.5rem;
+	transition: 200ms;
+}
+
+.btn:hover {
+	transform: scale(1.05);
+	transition: 200ms;
+}
+
+.btn:disabled {
+	opacity: 0.8;
+	transition: 200ms;
+}
+
+.btn:disabled:hover {
+	transform: none;
+	transition: 200ms;
+}
+
+.code.small {
+	width: calc(100% - 3rem);
+	margin: 1.5rem;
+	height: calc(100% - 3rem - 3rem - 1.5rem);
+}
+
+#images.big {
+	position: absolute;
+	width: calc(100% - 0.4rem);
+	height: calc(100% - 0.4rem + 3rem);
+	margin: 0.2rem;
+	top: -3rem;
+	left: 0px;
+	box-sizing: border-box;
+	z-index: 5;
+	transition: 500ms;
+}
+
+#images {
+	transition: 500ms;
+}
+
+.halfSplit {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25vmax, 1fr));
+	grid-template-rows: repeat(auto-fit, 1fr);
+	grid-auto-rows: 1fr;
+	position: relative;
+	bottom: 0px;
+	height: auto;
+	padding: 1rem;
+	gap: 1rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.bg1 {
+	background-color: var(--bg1);
+}
+
+#choice .box {
+	position: relative;
+	overflow: hidden;
+}
+
+#choice div h3 {
+	position: absolute;
+	bottom: 0rem;
+	width: fit-content;
+	margin: auto;
+	left: 0px;
+	right: 0px;
+	transition: 200ms;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+#choice div:hover h3 {
+	transform: scale(1.2);
+	transition: 200ms;
+}
+
+#choice div img {
+	transition: 200ms;
+}
+
+#choice div:hover img {
+	transform: scale(1.05) translateY(-5%);
+	transition: 200ms;
+}
+
+#choice div img {
+	max-height: calc(100% - 1.5rem - 1.5rem);
+	max-width: calc(100% - 1.5rem);
+	right: 1;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	transform: translateY(-0.75rem);
+}
+
+#images {
+	position: relative;
+	overflow: hidden;
+}
+
+#images div {
+	aspect-ratio: 1;
+	max-height: calc(100% - 1rem);
+	max-width: calc(100% - 1rem);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	padding: 0px;
+}
+
+#images div img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	overflow: hidden;
+}

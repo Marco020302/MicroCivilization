@@ -1,0 +1,22 @@
+[
+	{
+		"Ruota1": {
+			"pos":"ruota.png",
+			"big":"aereo.jpg"
+		},
+		"Ruota2": {
+			"pos":"ruota.png",
+			"big":"ruota.png"
+		}
+	},
+	{
+		"Aereo1": {
+			"pos":"aereo.jpg",
+			"big":"aereo.jpg"
+		},
+		"Aereo2": {
+			"pos":"aereo.jpg",
+			"big":"ruota.png"
+		}
+	}
+]
